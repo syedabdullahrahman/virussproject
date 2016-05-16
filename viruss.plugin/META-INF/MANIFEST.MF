@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: Viruss
-Bundle-SymbolicName: viruss
+Bundle-Name: Plugin
+Bundle-SymbolicName: viruss.plugin
 Bundle-Version: 1.0.0.qualifier
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
