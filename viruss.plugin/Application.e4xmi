@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="ASCII"?>
-<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmi:id="_A2U8IBs9EeaeSZlflq9XBA" elementId="viruss.plugin.application">
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_HhjeABs9EeaeSZlflq9XBA" elementId="viruss.plugin.trimmedwindow.virussapplication" label="Viruss Application" x="100" y="100" width="800" height="600"/>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_A2U8IBs9EeaeSZlflq9XBA" elementId="viruss.plugin.application">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_HhjeABs9EeaeSZlflq9XBA" elementId="viruss.plugin.trimmedwindow.virussapplication" label="Viruss Application" x="100" y="100" width="800" height="600">
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_KDvRcBs-EeaeSZlflq9XBA" elementId="viruss.plugin.perspectivestack.0">
+      <children xsi:type="advanced:Perspective" xmi:id="_MTsh4Bs-EeaeSZlflq9XBA" elementId="viruss.plugin.perspective.main" label="Main">
+        <children xsi:type="basic:Part" xmi:id="_ICVvgBtAEeaeSZlflq9XBA" elementId="viruss.plugin.part.main" contributionURI="bundleclass://viruss.plugin/viruss.plugin.parts.MainPart" label="main"/>
+      </children>
+    </children>
+    <mainMenu xmi:id="_ueOmoBtAEeaeSZlflq9XBA" elementId="viruss.plugin.menu.0">
+      <children xsi:type="menu:Menu" xmi:id="_mXX0QBtAEeaeSZlflq9XBA" elementId="viruss.plugin.menu.file" label="File">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_pAwRUBtAEeaeSZlflq9XBA" elementId="viruss.plugin.handledmenuitem.exit" label="Exit" command="_fnc_oBtAEeaeSZlflq9XBA"/>
+      </children>
+    </mainMenu>
+  </children>
+  <handlers xmi:id="_h9YVMBtAEeaeSZlflq9XBA" elementId="viruss.plugin.handler.0" contributionURI="bundleclass://viruss.plugin/viruss.plugin.handler.ExitHandler" command="_fnc_oBtAEeaeSZlflq9XBA"/>
+  <commands xmi:id="_fnc_oBtAEeaeSZlflq9XBA" elementId="org.eclipse.ui.file.exit" commandName="Exit"/>
   <addons xmi:id="_A2U8IRs9EeaeSZlflq9XBA" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_A2U8Ihs9EeaeSZlflq9XBA" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_A2U8Ixs9EeaeSZlflq9XBA" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
