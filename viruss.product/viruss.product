@@ -13,7 +13,9 @@
       </vmArgsMac>
    </launcherArgs>
 
-   <launcher>
+   <splash
+      location="viruss.plugin" />
+   <launcher name="Viuss Application">
       <solaris/>
       <win useIco="false">
          <bmp/>
