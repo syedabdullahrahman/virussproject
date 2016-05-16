@@ -18,8 +18,8 @@ import org.eclipse.swt.widgets.Listener;
 import org.eclipse.swt.widgets.Shell;
 import org.eclipse.swt.widgets.Text;
 
-import thread.ConsoleThread;
 import viruss.plugin.helper.TechnicalHelper;
+import viruss.plugin.thread.ConsoleThread;
 
 
 public class ControlsPart {

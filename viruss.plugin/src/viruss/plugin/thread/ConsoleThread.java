@@ -1,4 +1,4 @@
-package thread;
+package viruss.plugin.thread;
 
 public class ConsoleThread implements Runnable {
 
