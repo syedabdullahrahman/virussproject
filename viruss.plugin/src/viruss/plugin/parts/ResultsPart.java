@@ -10,6 +10,7 @@ public class ResultsPart {
 		Helper.printClassName(this.getClass(), "Constructor");
 	}
 	
+	
 	@PostConstruct
 	public void createControls(Composite parent) {
 		Helper.printClassName(this.getClass(), "@PostConstruct");
