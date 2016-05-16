@@ -8,6 +8,10 @@
       <product
             application="org.eclipse.e4.ui.workbench.swt.E4Application"
             name="Viruss">
+         <property
+               name="appName"
+               value="Viruss">
+         </property>
       </product>
    </extension>
 
