@@ -11,11 +11,6 @@ public class ExitHandler {
 		  workbench.close();
 	  }
 	  
-	  
-
-	  // NOT REQUIRED IN THIS EXAMPLE
-	  // just to demonstrates the usage of
-	  // the annotation
 	  @CanExecute
 	  public boolean canExecute() {
 	    return true;
