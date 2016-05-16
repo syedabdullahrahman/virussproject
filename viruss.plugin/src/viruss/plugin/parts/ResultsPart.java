@@ -7,13 +7,17 @@ import org.eclipse.swt.widgets.Composite;
 public class ResultsPart {
 
 	public ResultsPart() {
-		Helper.printClassName(this.getClass(), "Constructor");
+		TechnicalHelper.printClassName(this.getClass(), "Constructor");
 	}
-	
 	
 	@PostConstruct
 	public void createControls(Composite parent) {
-		Helper.printClassName(this.getClass(), "@PostConstruct");
+		TechnicalHelper.printClassName(this.getClass(), "@PostConstruct");
 	}
+	
+	public void showResult(){
+		System.out.println("result from ResultPart");
+	}
+	
 	
 }
