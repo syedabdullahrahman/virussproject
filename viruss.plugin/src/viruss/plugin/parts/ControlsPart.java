@@ -9,16 +9,20 @@ import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.Text;
 
+import viruss.plugin.helper.Helper;
 
-public class MainPart {
+
+public class ControlsPart {
 	Display display;
-	public MainPart(){
+	public ControlsPart(){
+		Helper.printClassName(this.getClass(), "Constructor");
 		display = Display.getCurrent();
-		System.out.println("Main part constructor");
+		
 	}
 	
 	@PostConstruct
 	public void createControls(Composite parent) {
+		Helper.printClassName(this.getClass(), "@PostConstruct");
 		// set part layout
 		final Composite comp = new Composite(parent, SWT.NONE);
 	    comp.setLayout(new GridLayout());
@@ -31,9 +35,7 @@ public class MainPart {
 	    // add to layout
 	    GridDataFactory.fillDefaults().hint(130, SWT.DEFAULT).applyTo(text);
 	  
-	    System.out.println(this.getClass().getSimpleName()
-				+ " @PostConstruct method called.");
-	    
+
 	} 
 
 
