@@ -4,12 +4,12 @@
     <children xsi:type="advanced:PerspectiveStack" xmi:id="_KDvRcBs-EeaeSZlflq9XBA" elementId="viruss.plugin.perspectivestack.0">
       <children xsi:type="advanced:Perspective" xmi:id="_MTsh4Bs-EeaeSZlflq9XBA" elementId="viruss.plugin.perspective.main" label="Main">
         <children xsi:type="basic:PartSashContainer" xmi:id="_SEJxsBtLEeaeSZlflq9XBA" elementId="viruss.plugin.partsashcontainer.1">
-          <children xsi:type="basic:PartSashContainer" xmi:id="_a4jG4BtIEeaeSZlflq9XBA" elementId="viruss.plugin.partsashcontainer.0" horizontal="true">
+          <children xsi:type="basic:PartSashContainer" xmi:id="_a4jG4BtIEeaeSZlflq9XBA" elementId="viruss.plugin.partsashcontainer.0" containerData="" horizontal="true">
             <children xsi:type="basic:PartStack" xmi:id="_Yq9YgBtJEeaeSZlflq9XBA" elementId="viruss.plugin.partstack.0" accessibilityPhrase="">
-              <children xsi:type="basic:Part" xmi:id="_ICVvgBtAEeaeSZlflq9XBA" elementId="viruss.plugin.part.controls" contributionURI="bundleclass://viruss.plugin/viruss.plugin.parts.ControlsPart" label="Controls"/>
+              <children xsi:type="basic:Part" xmi:id="_ICVvgBtAEeaeSZlflq9XBA" elementId="viruss.plugin.part.controls" containerData="" contributionURI="bundleclass://viruss.plugin/viruss.plugin.parts.ControlsPart" label="Controls"/>
             </children>
             <children xsi:type="basic:PartStack" xmi:id="_0QDFMBtJEeaeSZlflq9XBA" elementId="viruss.plugin.partstack.1" accessibilityPhrase="">
-              <children xsi:type="basic:Part" xmi:id="_jp39IBtJEeaeSZlflq9XBA" elementId="viruss.plugin.part.parameters" contributionURI="bundleclass://viruss.plugin/viruss.plugin.parts.ParametersPart" label="Parameters"/>
+              <children xsi:type="basic:Part" xmi:id="_jp39IBtJEeaeSZlflq9XBA" elementId="viruss.plugin.part.parameters" containerData="" contributionURI="bundleclass://viruss.plugin/viruss.plugin.parts.ParametersPart" label="Parameters"/>
             </children>
           </children>
           <children xsi:type="basic:PartStack" xmi:id="_XWB7ABtLEeaeSZlflq9XBA" elementId="viruss.plugin.partstack.2">
