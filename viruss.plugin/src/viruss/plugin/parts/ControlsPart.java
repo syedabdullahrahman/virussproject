@@ -24,6 +24,8 @@ import viruss.plugin.thread.ConsoleThread;
 
 public class ControlsPart {
 	Display display;
+	
+
 	public ControlsPart(){
 		TechnicalHelper.printClassName(this.getClass(), "Constructor");
 		display = Display.getCurrent();

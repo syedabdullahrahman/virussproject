@@ -3,7 +3,6 @@ Bundle-ManifestVersion: 2
 Bundle-Name: Plugin
 Bundle-SymbolicName: viruss.plugin;singleton:=true
 Bundle-Version: 1.0.0.qualifier
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Require-Bundle: org.eclipse.core.runtime;bundle-version="3.12.0",
  org.eclipse.swt;bundle-version="3.105.0",
  org.eclipse.e4.core.di;bundle-version="1.6.0",
@@ -15,3 +14,4 @@ Require-Bundle: org.eclipse.core.runtime;bundle-version="3.12.0",
  org.eclipse.e4.ui.services;bundle-version="1.2.0",
  org.eclipse.e4.ui.model.workbench;bundle-version="1.2.0"
 Import-Package: org.eclipse.e4.ui.model.application.ui.basic
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
