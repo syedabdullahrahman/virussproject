@@ -12,8 +12,10 @@
               <children xsi:type="basic:Part" xmi:id="_jp39IBtJEeaeSZlflq9XBA" elementId="viruss.plugin.part.parameters" contributionURI="bundleclass://viruss.plugin/viruss.plugin.parts.ParametersPart" label="Parameters"/>
             </children>
           </children>
-          <children xsi:type="basic:PartStack" xmi:id="_XWB7ABtLEeaeSZlflq9XBA" elementId="viruss.plugin.partstack.2">
-            <children xsi:type="basic:Part" xmi:id="_Xv0UABtLEeaeSZlflq9XBA" elementId="viruss.plugin.part.results" contributionURI="bundleclass://viruss.plugin/viruss.plugin.parts.ResultsPart" label="Results"/>
+          <children xsi:type="basic:PartSashContainer" xmi:id="_prUkgBxBEeauNu6tmUYQiQ" elementId="viruss.plugin.partsashcontainer.2">
+            <children xsi:type="basic:PartStack" xmi:id="_XWB7ABtLEeaeSZlflq9XBA" elementId="viruss.plugin.partstack.2">
+              <children xsi:type="basic:Part" xmi:id="_Xv0UABtLEeaeSZlflq9XBA" elementId="viruss.plugin.part.results" contributionURI="bundleclass://viruss.plugin/viruss.plugin.parts.ResultsPart" label="Results"/>
+            </children>
           </children>
         </children>
       </children>
