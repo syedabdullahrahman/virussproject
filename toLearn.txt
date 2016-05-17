@@ -7,3 +7,6 @@ https://wiki.eclipse.org/Eclipse4/RCP/Dependency_Injection
 http://www.vogella.com/tutorials/Eclipse3RCP/article.html
 
 http://www.vogella.com/tutorials/Eclipse4Services/article.html
+
+// FRAGMENTY
+http://www.vogella.com/tutorials/Eclipse4Modularity/article.html
