@@ -21,11 +21,14 @@
     <mainMenu xmi:id="_ueOmoBtAEeaeSZlflq9XBA" elementId="viruss.plugin.menu.0">
       <children xsi:type="menu:Menu" xmi:id="_mXX0QBtAEeaeSZlflq9XBA" elementId="viruss.plugin.menu.file" label="File">
         <children xsi:type="menu:HandledMenuItem" xmi:id="_pAwRUBtAEeaeSZlflq9XBA" elementId="viruss.plugin.handledmenuitem.exit" label="Exit" command="_fnc_oBtAEeaeSZlflq9XBA"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_yICggBvxEeauNu6tmUYQiQ" elementId="viruss.plugin.handledmenuitem.newwindow" label="New window" command="_XNT_cBvxEeauNu6tmUYQiQ"/>
       </children>
     </mainMenu>
   </children>
   <handlers xmi:id="_h9YVMBtAEeaeSZlflq9XBA" elementId="viruss.plugin.handler.0" contributionURI="bundleclass://viruss.plugin/viruss.plugin.handler.ExitHandler" command="_fnc_oBtAEeaeSZlflq9XBA"/>
+  <handlers xmi:id="_ZFUp8BvxEeauNu6tmUYQiQ" elementId="viruss.plugin.handler.1" contributionURI="bundleclass://viruss.plugin/viruss.plugin.handler.AddWindowHandler" command="_XNT_cBvxEeauNu6tmUYQiQ"/>
   <commands xmi:id="_fnc_oBtAEeaeSZlflq9XBA" elementId="org.eclipse.ui.file.exit" commandName="Exit"/>
+  <commands xmi:id="_XNT_cBvxEeauNu6tmUYQiQ" elementId="viruss.plugin.command.addwindow" commandName="Add window"/>
   <addons xmi:id="_A2U8IRs9EeaeSZlflq9XBA" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_A2U8Ihs9EeaeSZlflq9XBA" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_A2U8Ixs9EeaeSZlflq9XBA" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
