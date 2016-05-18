@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ASCII"?>
 <fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_T9wQkBxcEea05sCIssU86w">
   <fragments xsi:type="fragment:StringModelFragment" xmi:id="_T9wQkRxcEea05sCIssU86w" featurename="children" parentElementId="viruss.plugin.partstack.2">
-    <elements xsi:type="basic:Part" xmi:id="_T9wQkhxcEea05sCIssU86w" elementId="viruss.plugin.part.addonpart1" label="Add On Part 1" tooltip="part from plugin contribution "/>
+    <elements xsi:type="basic:Part" xmi:id="_T9wQkhxcEea05sCIssU86w" elementId="viruss.plugin.part.addonpart1" contributionURI="bundleclass://viruss.plugin.contribute/viruss.plugin.contribute.parts.AddOn1Part" label="Add On Part 1" tooltip="part from plugin contribution "/>
   </fragments>
   <fragments xsi:type="fragment:StringModelFragment" xmi:id="_ydpnQBy5EeacnICk2liXiA" featurename="commands" parentElementId="viruss.plugin.application">
     <elements xsi:type="commands:Command" xmi:id="_2QCTwBy5EeacnICk2liXiA" elementId="viruss.plugin.contribute.command.hellofromaddon" commandName="Hello from Add On"/>
   </fragments>
   <fragments xsi:type="fragment:StringModelFragment" xmi:id="_9jlZ4By5EeacnICk2liXiA" featurename="handlers" parentElementId="viruss.plugin.application">
-    <elements xsi:type="commands:Handler" xmi:id="__a5g0By5EeacnICk2liXiA" elementId="viruss.plugin.contribute.handler.0" contributionURI="bundleclass://viruss.plugin.contribute/viruss.plugin.contribute.HelloAddOnHandler" command="_2QCTwBy5EeacnICk2liXiA"/>
+    <elements xsi:type="commands:Handler" xmi:id="__a5g0By5EeacnICk2liXiA" elementId="viruss.plugin.contribute.handler.0" contributionURI="bundleclass://viruss.plugin.contribute/viruss.plugin.contribute.handler.HelloAddOnHandler" command="_2QCTwBy5EeacnICk2liXiA"/>
   </fragments>
   <fragments xsi:type="fragment:StringModelFragment" xmi:id="_bogP8BzDEeacnICk2liXiA" featurename="children" parentElementId="viruss.plugin.menu.mainmenu">
     <elements xsi:type="menu:Menu" xmi:id="_zL9g8BzIEeacnICk2liXiA" elementId="viruss.plugin.contribute.menu.addon" label="AddOn">

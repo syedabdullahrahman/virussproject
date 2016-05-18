@@ -55,13 +55,6 @@ public class ControlsPart {
 		// set part layout
 		final Composite comp = new Composite(parent, SWT.NONE);
 	    comp.setLayout(new GridLayout());
-	    
-	    // create Text control
-	    Text text = new Text(comp, SWT.SEARCH | SWT.ICON_SEARCH | SWT.CANCEL | SWT.BORDER);
-	    text.setMessage("Search");
-	
-	    // add to layout
-	    GridDataFactory.fillDefaults().hint(130, SWT.DEFAULT).applyTo(text);
 	  
 	    // add thread print button
 	    Button button0 = new Button(comp, SWT.NONE);
@@ -78,7 +71,7 @@ public class ControlsPart {
 	    
 	    // add get part button
 	    Button button1 = new Button(comp, SWT.NONE);
-	    button1.setText("get part");
+	    button1.setText("Get Part");
 	    button1.addListener(SWT.Selection, new Listener() {
 	      public void handleEvent(Event e) {
 	        switch (e.type) {
@@ -88,6 +81,11 @@ public class ControlsPart {
 	        }
 	      }
 	    });
+	    
+	    // create Text control
+	    Text text = new Text(comp, SWT.SEARCH | SWT.ICON_SEARCH | SWT.CANCEL | SWT.BORDER);
+	    text.setMessage("text box");
+	    GridDataFactory.fillDefaults().hint(130, SWT.DEFAULT).applyTo(text);
 	    
 	    GridDataFactory.fillDefaults().hint(130, SWT.DEFAULT).applyTo(button0);
 	    GridDataFactory.fillDefaults().hint(130, SWT.DEFAULT).applyTo(button1);

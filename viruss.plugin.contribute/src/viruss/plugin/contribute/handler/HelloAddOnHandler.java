@@ -1,4 +1,4 @@
-package viruss.plugin.contribute;
+package viruss.plugin.contribute.handler;
 
 import org.eclipse.e4.core.di.annotations.Execute;
 import org.eclipse.jface.dialogs.MessageDialog;
