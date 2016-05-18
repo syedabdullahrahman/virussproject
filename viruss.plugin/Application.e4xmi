@@ -14,13 +14,17 @@
           </children>
           <children xsi:type="basic:PartSashContainer" xmi:id="_prUkgBxBEeauNu6tmUYQiQ" elementId="viruss.plugin.partsashcontainer.2">
             <children xsi:type="basic:PartStack" xmi:id="_XWB7ABtLEeaeSZlflq9XBA" elementId="viruss.plugin.partstack.2">
-              <children xsi:type="basic:Part" xmi:id="_Xv0UABtLEeaeSZlflq9XBA" elementId="viruss.plugin.part.results" contributionURI="bundleclass://viruss.plugin/viruss.plugin.parts.ResultsPart" label="Results"/>
+              <children xsi:type="basic:Part" xmi:id="_Xv0UABtLEeaeSZlflq9XBA" elementId="viruss.plugin.part.results" contributionURI="bundleclass://viruss.plugin/viruss.plugin.parts.ResultsPart" label="Results">
+                <toolbar xmi:id="_MNdX4By7EeacnICk2liXiA" elementId="viruss.plugin.toolbar.0">
+                  <children xsi:type="menu:HandledToolItem" xmi:id="_NQoFEBy7EeacnICk2liXiA" elementId="viruss.plugin.handledtoolitem.addwindow" label="Add window " command="_XNT_cBvxEeauNu6tmUYQiQ"/>
+                </toolbar>
+              </children>
             </children>
           </children>
         </children>
       </children>
     </children>
-    <mainMenu xmi:id="_ueOmoBtAEeaeSZlflq9XBA" elementId="viruss.plugin.menu.0">
+    <mainMenu xmi:id="_ueOmoBtAEeaeSZlflq9XBA" elementId="viruss.plugin.menu.mainmenu">
       <children xsi:type="menu:Menu" xmi:id="_mXX0QBtAEeaeSZlflq9XBA" elementId="viruss.plugin.menu.file" label="File">
         <children xsi:type="menu:HandledMenuItem" xmi:id="_pAwRUBtAEeaeSZlflq9XBA" elementId="viruss.plugin.handledmenuitem.exit" label="Exit" command="_fnc_oBtAEeaeSZlflq9XBA"/>
         <children xsi:type="menu:HandledMenuItem" xmi:id="_yICggBvxEeauNu6tmUYQiQ" elementId="viruss.plugin.handledmenuitem.newwindow" label="New window" command="_XNT_cBvxEeauNu6tmUYQiQ"/>
