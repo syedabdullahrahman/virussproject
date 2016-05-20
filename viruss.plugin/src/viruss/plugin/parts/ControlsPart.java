@@ -31,6 +31,11 @@ public class ControlsPart {
 		display = Display.getCurrent();
 	}
 	
+	@ Inject
+	public void setSelection (@Optional @Named (IServiceConstants.ACTIVE_SELECTION) Object object) {
+	System.out.println("IServiceConstants.ACTIVE_SELECTION: " + object);
+	}
+	
 	@Inject
 	@Optional
 	public void receiveActivePart(@Named(IServiceConstants.ACTIVE_PART) MPart activePart) {

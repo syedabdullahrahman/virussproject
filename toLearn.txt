@@ -2,6 +2,8 @@ http://eclipsesource.com/blogs/2012/05/10/eclipse-4-final-sprint-part-1-the-e4-a
 
 
 https://wiki.eclipse.org/Eclipse4/RCP/Dependency_Injection
+// SELECTION
+http://toedter.com/2010/08/09/eclipse-4-0-rcp-selection/
 
 
 http://www.vogella.com/tutorials/Eclipse3RCP/article.html

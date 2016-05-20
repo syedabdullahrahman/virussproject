@@ -1,7 +1,6 @@
 package viruss.plugin.parts;
 
 import javax.annotation.PostConstruct;
-import org.eclipse.jface.layout.GridDataFactory;
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.layout.*;
 import org.eclipse.swt.widgets.Button;
